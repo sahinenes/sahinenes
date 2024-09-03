@@ -397,3 +397,97 @@
     padding-right: 0;
     border-right: none;
 }
+
+
+
+.owl-carousel-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Resmi kapsayıcıya sığacak şekilde kırparak ölçekler */
+}
+
+.owl-carousel-item {
+    height: 800px; /* Carousel'in sabit yüksekliği */
+}
+
+.cat-item {
+height: 100%;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+align-items: center;
+text-align: center;
+}
+
+.cat-item img {
+width: 100%;
+height: 200px; /* Resimlerin yüksekliğini belirleyin */
+object-fit: cover; /* Resimlerin kesilmesini veya bozulmasını önlemek için */
+border-radius: 8px; /* Köşeleri yuvarlatmak için */
+}
+
+.cat-item h6, .cat-item p {
+margin: 10px 0;
+}
+
+
+#logoCarousel .carousel-inner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: scroll 20s linear infinite;
+}
+
+@keyframes scroll {
+    0% {
+        transform: translateX(0%);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+#logoCarousel .carousel-inner .carousel-item {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex: 1;
+}
+
+#logoCarousel .carousel-inner img {
+    max-width: 100px;
+    object-fit: contain;
+}
+
+.logo-img {
+    width: 100%;  /* Logoların genişliğini sütunun genişliğine göre ayarla */
+    max-width: 150px;  /* Logoların maksimum genişliği */
+    height: auto;  /* Yüksekliği otomatik olarak ayarla */
+    display: block;  /* Logoların blok elemanı olarak davranmasını sağlar */
+    margin: 0 auto;  /* Logoların ortalanmasını sağlar */
+}
+
+
+.carousel-inner .carousel-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.logo-text{
+    font-family: 'SignPainter', sans-serif;
+}
+.logo-container {
+    display: flex;
+    align-items: center; /* Resim ve yazıyı aynı hizaya getirir */
+}
+
+.logo-image {
+    margin-right: 10px; /* Resim ile yazı arasına boşluk ekler */
+}
+
+.logo-text {
+    margin: 0;
+    padding-left: 10px; /* Resim ile yazı arasına boşluk ekler */
+}
