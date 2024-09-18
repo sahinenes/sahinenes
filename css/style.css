@@ -238,8 +238,38 @@
     border-color: var(--primary);
 }
 
-.page-header {
-    background: linear-gradient(rgba(43, 57, 64, .5), rgba(43, 57, 64, .5)), url(../img/carousel-1.jpg) center center no-repeat;
+.page-header-1 {
+    background: linear-gradient(rgba(43, 57, 64, .5), rgba(43, 57, 64, .5)), url(../img/goruntu-isleme2.png) center center no-repeat;
+    background-size: cover;
+}
+
+.page-header-2 {
+    background: linear-gradient(rgba(43, 57, 64, .5), rgba(43, 57, 64, .5)), url(../img/robot6.jpg) center center no-repeat;
+    background-size: cover;
+}
+
+.page-header-3 {
+    background: linear-gradient(rgba(43, 57, 64, .5), rgba(43, 57, 64, .5)), url(../img/ozel-montaj1.jpg) center center no-repeat;
+    background-size: cover;
+}
+
+.page-header-4 {
+    background: linear-gradient(rgba(43, 57, 64, .5), rgba(43, 57, 64, .5)), url(../img/kaynak1.jpg) center center no-repeat;
+    background-size: cover;
+}
+
+.page-header-5 {
+    background: linear-gradient(rgba(43, 57, 64, .5), rgba(43, 57, 64, .5)), url(../img/vidalama.jpg) center center no-repeat;
+    background-size: cover;
+}
+
+.page-header-6 {
+    background: linear-gradient(rgba(43, 57, 64, .5), rgba(43, 57, 64, .5)), url(../img/goruntu-isleme1.jpg) center center no-repeat;
+    background-size: cover;
+}
+
+.page-header-7 {
+    background: linear-gradient(rgba(43, 57, 64, .5), rgba(43, 57, 64, .5)), url(../img/robot3.png) center center no-repeat;
     background-size: cover;
 }
 
